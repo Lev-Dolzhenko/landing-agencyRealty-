@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/src/images/common/favicon.svg"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__row">
+          <div class="header__row_logotype">
+            <img src="/images/header/logotype.svg" alt="logotype" />
+          </div>
+          <div class="header__row_numbers">
+            <span class="header__row_number"> +1 234 567-89-00 </span>
+            <span class="header__row_number"> +1 234 567-89-00 </span>
+          </div>
+          <div class="header__row_button">
+            <button>
+              <img src="/images/header/heartIcon.svg" alt="heartIcon" />
+              Избранное
+            </button>
+          </div>
+        </div>
+        <div class="header__wrapper">
+          <div class="header__title">
+            <h1 class="title1 title1_header">Найди недвижимость своей мечты</h1>
+          </div>
+          <div class="header__subtitle">
+            <span>Легкий способ купить и продать вашу недвижимость</span>
+          </div>
+          <div class="header__search">
+            <div class="header__search_input header__search_input-city">
+              <div class="header__search_input_text">
+                <span class="header__search_input-placeholder"
+                  >Город, район
+                </span>
+                <span class="header__search_input-answer">Нур-Султан </span>
+              </div>
+              <div class="header__search_input_arrow">
+                <button>
+                  <img src="/images/header/arrowIcon.svg" alt="arrowIcon" />
+                </button>
+              </div>
+            </div>
+            <div class="header__search_input header__search_input-square">
+              <div class="header__search_input_text">
+                <span class="header__search_input-placeholder">Площадь</span>
+                <span class="header__search_input-answer">120м</span>
+              </div>
+              <div class="header__search_input_arrow">
+                <button>
+                  <img src="/images/header/arrowIcon.svg" alt="arrowIcon" />
+                </button>
+              </div>
+            </div>
+            <div class="header__search_input header__search_input-rooms">
+              <div class="header__search_input_text">
+                <span class="header__search_input-placeholder"
+                  >Комнатность
+                </span>
+                <span class="header__search_input-answer">2 </span>
+              </div>
+              <div class="header__search_input_arrow">
+                <button>
+                  <img src="/images/header/arrowIcon.svg" alt="arrowIcon" />
+                </button>
+              </div>
+            </div>
+            <div class="header__search_input header__search_input-price">
+              <div class="header__search_input_text">
+                <span class="header__search_input-placeholder">Цена </span>
+                <span class="header__search_input-answer"
+                  >от 30 000 000 ₸
+                </span>
+              </div>
+              <div class="header__search_input_arrow">
+                <button>
+                  <img src="/images/header/arrowIcon.svg" alt="arrowIcon" />
+                </button>
+              </div>
+            </div>
+            <div class="header__search_button">
+              <button>Поиск</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="benefits">
+        <div class="container">
+          <div class="benefits__row">
+            <div class="benefits__item">
+              <img
+                class="benefits__item_image"
+                src="/images/main/benefits/homeIcon.svg"
+                alt="homeIcon"
+              />
+
+              <div class="benefits__item_text">
+                <p>Поможем со скорейшей продажей вашей квартиры</p>
+              </div>
+            </div>
+            <div class="benefits__item">
+              <img
+                class="benefits__item_image"
+                src="/images/main/benefits/soundIcon.svg"
+                alt="homeIcon"
+              />
+              <div class="benefits__item_text">
+                <p>Занимаемся сопровождением ипотечной программы</p>
+              </div>
+            </div>
+            <div class="benefits__item">
+              <img
+                class="benefits__item_image"
+                src="/images/main/benefits/peopleIcon.svg"
+                alt="homeIcon"
+              />
+              <div class="benefits__item_text">
+                <p>
+                  Мы дорожим своей репутацией и работаем для вас 7 дней в
+                  неделю!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mortgage">
+        <div class="container">
+          <div class="mortgage__title">
+            <h2 class="title2 title2_mortgage">Ипотека</h2>
+          </div>
+          <div class="mortgage__row">
+            <button class="mortgage__row_item mortgage__row_item-blue">
+              <div class="mortgage__row_title">
+                <h3 class="title3 title3_mortgage">
+                  Ипотечные <br />
+                  программы
+                </h3>
+              </div>
+              <img
+                class="mortgage__row_image"
+                src="/images/main/mortgage/homeOne.png"
+                alt="homeOne"
+              />
+            </button>
+            <button class="mortgage__row_item mortgage__row_item-pink">
+              <div class="mortgage__row_title">
+                <h3 class="title3 title3_mortgage">
+                  Ипотечный <br />
+                  калькулятор
+                </h3>
+              </div>
+              <img
+                class="mortgage__row_image"
+                src="/images/main/mortgage/homeTwo.png"
+                alt="homeTwo"
+              />
+            </button>
+            <button class="mortgage__row_item mortgage__row_item-arrow">
+              <div class="mortgage__row_title">
+                <h3 class="title3 title3_mortgage">Посмотреть еще</h3>
+              </div>
+              <img src="/images/main/mortgage/arrow.svg" alt="arrow" />
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="variants">
+        <div class="container">
+          <div class="variants__title">
+            <h2 class="title2 title2_variants">Лучшие варианты</h2>
+          </div>
+          <div class="variants__row">
+            <div class="variants__item">
+              <div class="variants__item_image">
+                <img
+                  src="/images/main/variants/imageCard.jpeg"
+                  alt="imageCard"
+                />
+              </div>
+              <div class="variants__item_title">
+                <h5 class="title5 title5_variants">ЖК “Атланта”</h5>
+              </div>
+              <div class="variants__item_subtitle">
+                <p>2-комнатная квартира, 51.8 м², Орынбор 10</p>
+              </div>
+              <div class="variants__item_wrapper">
+                <span class="variants__item_price">40 млн ₸</span>
+                <button class="variants__item_button">Подробнее</button>
+              </div>
+            </div>
+            <div class="variants__item">
+              <div class="variants__item_image">
+                <img
+                  src="/images/main/variants/imageCard.jpeg"
+                  alt="imageCard"
+                />
+              </div>
+              <div class="variants__item_title">
+                <h5 class="title5 title5_variants">ЖК “Атланта”</h5>
+              </div>
+              <div class="variants__item_subtitle">
+                <p>2-комнатная квартира, 51.8 м², Орынбор 10</p>
+              </div>
+              <div class="variants__item_wrapper">
+                <span class="variants__item_price">40 млн ₸</span>
+                <button class="variants__item_button">Подробнее</button>
+              </div>
+            </div>
+            <div class="variants__item">
+              <div class="variants__item_image">
+                <img
+                  src="/images/main/variants/imageCard.jpeg"
+                  alt="imageCard"
+                />
+              </div>
+              <div class="variants__item_title">
+                <h5 class="title5 title5_variants">ЖК “Атланта”</h5>
+              </div>
+              <div class="variants__item_subtitle">
+                <p>2-комнатная квартира, 51.8 м², Орынбор 10</p>
+              </div>
+              <div class="variants__item_wrapper">
+                <span class="variants__item_price">40 млн ₸</span>
+                <button class="variants__item_button">Подробнее</button>
+              </div>
+            </div>
+            <div class="variants__item">
+              <div class="variants__item_image">
+                <img
+                  src="/images/main/variants/imageCard.jpeg"
+                  alt="imageCard"
+                />
+              </div>
+              <div class="variants__item_title">
+                <h5 class="title5 title5_variants">ЖК “Атланта”</h5>
+              </div>
+              <div class="variants__item_subtitle">
+                <p>2-комнатная квартира, 51.8 м², Орынбор 10</p>
+              </div>
+              <div class="variants__item_wrapper">
+                <span class="variants__item_price">40 млн ₸</span>
+                <button class="variants__item_button">Подробнее</button>
+              </div>
+            </div>
+            <div class="variants__item">
+              <div class="variants__item_image">
+                <img
+                  src="/images/main/variants/imageCard.jpeg"
+                  alt="imageCard"
+                />
+              </div>
+              <div class="variants__item_title">
+                <h5 class="title5 title5_variants">ЖК “Атланта”</h5>
+              </div>
+              <div class="variants__item_subtitle">
+                <p>2-комнатная квартира, 51.8 м², Орынбор 10</p>
+              </div>
+              <div class="variants__item_wrapper">
+                <span class="variants__item_price">40 млн ₸</span>
+                <button class="variants__item_button">Подробнее</button>
+              </div>
+            </div>
+            <div class="variant__item-cover">
+              <img
+                class="variannt__item_image-cover"
+                src="/images/main/variants/imageCardCover.jpeg"
+                alt="imageCardCover"
+              />
+              <button class="variannt__item_button-cover">
+                Посмотреть <br />
+                еще
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container">
+          <div class="about__wrapper">
+            <div class="about__text">
+              <div class="about__text_title">
+                <h3 class="title3 title3_about">О “КупиДом”</h3>
+              </div>
+              <div class="about__text_subtitle">
+                <p>
+                  Мы работаем в городах Нур-Султан и Кокшетау и занимаемся
+                  полным сопровождением сделок на рынке недвижимости, как
+                  первичной, так и вторичной. Наша компания работает на рынке
+                  уже больше двух лет, наша основа - штат опытных специалистов,
+                  которые работают на рынке недвижимости не первый год, знают
+                  город как свои пять пальцев, могут рассказать вам особенности
+                  каждого района, плюсы и минусы любого ЖК в городах
+                  присутствия.
+                </p>
+              </div>
+              <div class="about__text_button">
+                <button>
+                  Подобрать жилье
+                  <img src="/images/main/about/arrow.svg" alt="arrow" />
+                </button>
+              </div>
+            </div>
+            <div class="about__image">
+              <img src="/images/main/about/image.jpeg" alt="image" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="team">
+        <div class="container">
+          <div class="team__title">
+            <h2 class="title2 title2_team">Наша команда</h2>
+          </div>
+          <div class="swiper mySwiper mySwiper-team">
+            <div class="swiper-wrapper swiper-wrapper-team">
+              <div class="swiper-slide swiper-slide-team">
+                <div class="team__wrapper">
+                  <div class="team__image">
+                    <img
+                      src="/images/main/team/imagePerson.jpeg"
+                      alt="imagePerson"
+                    />
+                  </div>
+                  <div class="team__name"><span>Арман Арманович</span></div>
+                  <div class="team__number"><span>+123456789</span></div>
+                  <div class="team__button"><button>Связаться</button></div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide-team">
+                <div class="team__wrapper">
+                  <div class="team__image">
+                    <img
+                      src="/images/main/team/imagePerson.jpeg"
+                      alt="imagePerson"
+                    />
+                  </div>
+                  <div class="team__name"><span>Арман Арманович</span></div>
+                  <div class="team__number"><span>+123456789</span></div>
+                  <div class="team__button"><button>Связаться</button></div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide-team">
+                <div class="team__wrapper">
+                  <div class="team__image">
+                    <img
+                      src="/images/main/team/imagePerson.jpeg"
+                      alt="imagePerson"
+                    />
+                  </div>
+                  <div class="team__name"><span>Арман Арманович</span></div>
+                  <div class="team__number"><span>+123456789</span></div>
+                  <div class="team__button"><button>Связаться</button></div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide-team">
+                <div class="team__wrapper">
+                  <div class="team__image">
+                    <img
+                      src="/images/main/team/imagePerson.jpeg"
+                      alt="imagePerson"
+                    />
+                  </div>
+                  <div class="team__name"><span>Арман Арманович</span></div>
+                  <div class="team__number"><span>+123456789</span></div>
+                  <div class="team__button"><button>Связаться</button></div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide-team">
+                <div class="team__wrapper">
+                  <div class="team__image">
+                    <img
+                      src="/images/main/team/imagePerson.jpeg"
+                      alt="imagePerson"
+                    />
+                  </div>
+                  <div class="team__name"><span>Арман Арманович</span></div>
+                  <div class="team__number"><span>+123456789</span></div>
+                  <div class="team__button"><button>Связаться</button></div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide-team">
+                <div class="team__wrapper">
+                  <div class="team__image">
+                    <img
+                      src="/images/main/team/imagePerson.jpeg"
+                      alt="imagePerson"
+                    />
+                  </div>
+                  <div class="team__name"><span>Арман Арманович</span></div>
+                  <div class="team__number"><span>+123456789</span></div>
+                  <div class="team__button"><button>Связаться</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="call">
+        <div class="container">
+          <div class="call__wrapper">
+            <div class="call__title">
+              <h3 class="title3 title3_call">Заказать обратный звонок</h3>
+            </div>
+            <div class="call__subtitle">
+              <p>Если у Вас возникли проблемы или вопросы мы с Вами свяжемся</p>
+            </div>
+            <form class="call__form">
+              <input placeholder="Ваше имя" type="text" />
+              <input placeholder="Номер телефона" type="text" />
+              <button>Проконсультироваться</button>
+            </form>
+            <img
+              class="call__wrapper_bg"
+              src="/images/main/call/callBg.jpeg"
+              alt="callBg"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="info">
+        <div class="container">
+          <div class="info__wrapper">
+            <div class="info__wrapper_image">
+              <img src="/images/main/info/logotype.png" alt="logotype" />
+            </div>
+            <div class="info__wrapper_number">
+              <span>+1 234 567-89-00</span>
+            </div>
+            <div class="info__wrapper_subtitle">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae,
+                scelerisque tortor neque semper tempus vitae et, et.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="map">
+        <div class="container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d143693.81623246707!2d37.6111104!3d55.754751999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sru!4v1713371195678!5m2!1sen!2sru"
+            width="100%"
+            height="400"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__row">
+          <div class="footer__row_info">
+            <img src="/images/footer/logotype.svg" alt="logotype" />
+            <p>
+              Lorem ipsum dolor amet, consectetur adipiscing elit. Eget nisl
+              nunc quam ac
+            </p>
+            <ul class="footer__socials">
+              <li class="footer__social">
+                <a href="#!"
+                  ><img src="/images/footer/inst.svg" alt="inst"
+                /></a>
+              </li>
+              <li class="footer__social">
+                <a href="#!"
+                  ><img src="/images/footer/ball.svg" alt="ball"
+                /></a>
+              </li>
+              <li class="footer__social">
+                <a href="#!"
+                  ><img src="/images/footer/twitter.svg" alt="twitter"
+                /></a>
+              </li>
+              <li class="footer__social">
+                <a href="#!"
+                  ><img src="/images/footer/youtube.svg" alt="youtube"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__row_links">
+            <ul class="footer__links_list">
+              <li class="footer__links_item footer__links_item-title">
+                Быстрые ссылки
+              </li>
+              <li class="footer__links_item footer__links_item-link">
+                <a href="#!">Главная</a>
+              </li>
+              <li class="footer__links_item footer__links_item-link">
+                <a href="#!">Квартиры</a>
+              </li>
+              <li class="footer__links_item footer__links_item-link">
+                <a href="#!">О компании</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__row_contacts">
+            <ul class="footer__contacts_list">
+              <li class="footer__contacts_item footer__contacts_item-title">
+                Контакты
+              </li>
+              <li class="footer__contacts_item footer__contacts_item-link">
+                <img src="/images/footer/emailIcon.svg" alt="emailIcon" />
+                <span>hello@landify.co</span>
+              </li>
+              <li class="footer__contacts_item footer__contacts_item-link">
+                <img src="/images/footer/phoneIcon.svg" alt="phoneIcon" />
+                <span>+91 98765 43210</span>
+              </li>
+              <li class="footer__contacts_item footer__contacts_item-link">
+                <img src="/images/footer/mapIcon.svg" alt="mapIcon" />
+                <span>772 Lyonwood Ave Walnut, CA 91789</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__wrapper">
+          <div class="footer__wrapper_copyright">
+            <div class="copyright">
+              <p>©<span>2022</span> КУПИДОМ. All rights reserved</p>
+            </div>
+          </div>
+          <ul class="footer__wrapper_list">
+            <li class="footer__wrapper_item">
+              <a href="#!">Terms & Conditions</a>
+            </li>
+            <li class="footer__wrapper_item">
+              <a href="#!">Privacy Policy</a>
+            </li>
+            <li class="footer__wrapper_item">
+              <a href="#!">Sitemap</a>
+            </li>
+            <li class="footer__wrapper_item">
+              <a href="#!">Disclaimer</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+//base
+
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+@import '../fonts/helveticaNeueCur/stylesheet.css';
+@import "./base/animations";
+@import "./base/mixins";
+@import "./base/reset";
+@import "./base/vars";
+@import "./base/base";
+
+//blocks
+
+@import './blocks/header';
+@import './blocks/benefits';
+@import './blocks/mortgage';
+@import './blocks/variants';
+@import './blocks/about';
+@import './blocks/team';
+@import './blocks/call';
+@import './blocks/info';
+@import './blocks/footer';
+
+
