@@ -30,7 +30,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: "КупиДом",
-      template: "src/index.html",
+      template: "src/calculator.html",
     }),
   ],
 };

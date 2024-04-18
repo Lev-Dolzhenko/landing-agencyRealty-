@@ -5,6 +5,10 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  &_calculator {
+    height: 80vh;
+  }
 }
 
 .header__row {
@@ -49,6 +53,10 @@
   justify-content: center;
 
   margin-top: 120px;
+
+  &_calculator {
+    margin-top: 160px;
+  }
 }
 .header__title {
   margin-bottom: 5px;
